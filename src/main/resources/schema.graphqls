@@ -1,19 +1,14 @@
 schema {
     query: Query
-    mutation: Mutation
 }
 
 type Query {
     allAccount: [Account]
-    accById(id: Int): Account
+    accById(user_id: Int): Account
 
 }
 
 type Account {
-    user_id: Int!
-    username: String!
-}
-
-type Mutation {
-
+    user_id: Int
+    username: String
 }
