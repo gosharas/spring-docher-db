@@ -30,6 +30,8 @@ public class ApplicationController {
         return this.service.getAll();
     }
 
+
+    @GetMapping(path = "/cr")
     public void create(){
         this.service.create();
     }

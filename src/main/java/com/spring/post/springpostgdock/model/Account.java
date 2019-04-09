@@ -20,8 +20,8 @@ public class Account {
     @Column(name = "username", nullable = false)
     private String username;
 
-    public Account(int user_id, String username) {
-        this.user_id = user_id;
-        this.username = username;
-    }
+//    public Account(int user_id, String username) {
+//        this.user_id = user_id;
+//        this.username = username;
+//    }
 }

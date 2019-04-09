@@ -34,7 +34,7 @@ public class ServiceImpl implements Service {
 
     @Override
     public void create() {
-        Account account = new Account(1, "Account");
-        accountRepository.save(account);
+//        Account account = new Account(1, "Account");
+//        accountRepository.save(account);
     }
 }
